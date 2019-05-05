@@ -1,0 +1,38 @@
+
+/* Import Stylesheets
+================================================*/
+
+@import url("sitewide.css");
+
+/* Layout------------------------------ */* {	margin: 0;	padding: 0;}
+body {	padding: 22px 0 0 23px;
+	width: 831px;}#content {
+	float: right;
+	width: 573px;}
+#content div {	padding: 5px;}#navigation {
+	width: 215px;
+	float: left;
+	margin-right: 20px;}
+
+#navigation li, #navigation .profile, #navigation .flash {	margin-bottom: 1.5em;}
+
+#navigation h3 {
+}/* Styling------------------------------ */body {	font: 62.5%/1.3 Arial, Helvetica, sans-serif;	color: #404040;	background-color: #a7a6a7;}
+
+address {	font-size: 1.2em;}
+
+.types {	color: #fff;}
+
+#content li {
+	font-weight: normal;	font-size: 1.2em;
+	margin-bottom: 0.2em;}
+
+#navigation li.selected {	background-color: #b9b8b8;}
+
+/* Content Styling------------------------------ */
+#content {	padding-bottom: 2em;}
+#content p, #content img{	margin-top: 2em;}
+#content h3 {	margin-top: 1em;}
+#content p.caption {	margin-top: 0.1em;
+	font-size: 1em;}
+

@@ -1,0 +1,34 @@
+<!ELEMENT types (#PCDATA | type)*>
+<!ELEMENT href (#PCDATA)>
+<!ELEMENT type (#PCDATA)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT swf (#PCDATA)>
+<!ELEMENT link (#PCDATA | name | href)*>
+<!ELEMENT story (#PCDATA | title | swf | by | date | img | items | roles | types | links)*>
+<!ATTLIST story nav CDATA #IMPLIED>
+<!ATTLIST story bleed CDATA #IMPLIED>
+<!ATTLIST story highlightColor CDATA #IMPLIED>
+<!ATTLIST story id CDATA #IMPLIED>
+<!ATTLIST story textColor CDATA #IMPLIED>
+<!ATTLIST story type CDATA #IMPLIED>
+<!ELEMENT p (#PCDATA)>
+<!ATTLIST p size CDATA #IMPLIED>
+<!ELEMENT by (#PCDATA)>
+<!ELEMENT roles (#PCDATA | role)*>
+<!ELEMENT date (#PCDATA)>
+<!ELEMENT over (#PCDATA)>
+<!ELEMENT links (#PCDATA | link)*>
+<!ELEMENT associate (#PCDATA)>
+<!ELEMENT visited (#PCDATA)>
+<!ELEMENT items (#PCDATA | p | img)*>
+<!ELEMENT img (#PCDATA | normal | over | visited)*>
+<!ATTLIST img alt CDATA #IMPLIED>
+<!ATTLIST img height CDATA #IMPLIED>
+<!ATTLIST img src CDATA #IMPLIED>
+<!ATTLIST img width CDATA #IMPLIED>
+<!ELEMENT document (#PCDATA | stories)*>
+<!ELEMENT normal (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT role (#PCDATA | associate | email | role)*>
+<!ELEMENT stories (#PCDATA | story)*>
+<!ELEMENT name (#PCDATA)>

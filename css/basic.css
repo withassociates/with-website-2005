@@ -1,0 +1,65 @@
+
+/* Import Stylesheets
+================================================*/
+
+@import url("sitewide.css");
+
+/* Layout
+------------------------------ */
+
+html {
+	height: 100%;
+}
+
+body, #flashContent {
+	height: 100%;
+}
+
+#content {
+	margin: 22px 0 0 23px;
+	width: 420px;
+}
+
+#info {
+	margin-bottom: 3em;
+}
+
+#info h2 {
+	margin-bottom: 1em;
+}
+#info p {
+	margin-top: 1em;
+}
+#info p.email {
+	margin-top: 0em;
+	margin-bottom: 2em;
+}
+#info p.link {
+	margin-top: 2em;
+}
+.story {
+	margin-bottom: 2em;
+}
+.story h3 {
+	margin-bottom: 1em;
+}
+.story p.large {
+	margin-bottom: 1em;
+}
+
+/* Styling
+------------------------------ */
+#info h2 {
+	color: #fff;
+}
+#flashContent {
+	font-size: 1.2em;
+}
+
+.line {
+    margin: 2em 0;
+    border-bottom: 1px solid #fff;
+}
+.story li {
+	font-size: 1.2em;
+}
